@@ -1,0 +1,74 @@
+a, abbr, address, area, article, aside, audio,
+b, base, bdi, bdo, blockquote, body, br, button,
+canvas, caption, cite, code, col, colgroup,
+datalist, dd, del, details, dfn, dialog, div, dl, dt,
+em, embed,
+fieldset, figcaption, figure, footer, form,
+h1, h2, h3, h4, h5, h6, head, header, hr, html,
+i, iframe, img, input, ins,
+kbd, keygen,
+label, legend, li, link,
+main, map, mark, menu, menuitem, meta, meter,
+nav, noscript,
+object, ol, optgroup, option, output,
+p, param, pre, progress,
+q,
+rp, rt, ruby,
+s, samp, script, section, select, small, source, span, strong, style, sub, summmary, sup,
+table, tbody, td, textarea, tfoot, th, thead, time, title, tr, track,
+u, ul,
+var, video,
+wbr {
+    background: transparent;
+    border: 0;
+    color: inherit;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: top;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    position: relative;
+    line-height: 1;
+}
+a, a:active, a:focus, a:link, a:visited {
+    outline: 0;
+    text-decoration: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+button {
+    cursor: pointer;
+}
+input::-moz-focus-inner, button::-moz-focus-inner {
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+button:active, button:focus, button:disabled,
+input:active, input:focus,
+select:active, select:focus,
+textarea:active, textarea:focus {
+    outline: 0;
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+strong {
+    font-weight: bold;
+}
